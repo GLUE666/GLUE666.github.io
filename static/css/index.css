@@ -187,7 +187,7 @@ body {
 .video-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 创建三列，每列占据等宽 */
-  max-width: 1250px; 
+  max-width: 1600px; 
   gap: 20px; /* 设置视频间的间隔 */
 }
 
@@ -221,8 +221,8 @@ body {
 .video-description {
   text-align: center;
   color: #747474;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 18px;
+  margin-top: 6px;
 }
 
 .long-video-description {
