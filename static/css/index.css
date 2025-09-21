@@ -178,7 +178,11 @@ body {
 }
 
 
-
+.video-container {
+  max-width: 1600px;   /* 比默认的 is-max-desktop(960px) 更大 */
+  margin: 0 auto;      /* 居中 */
+  padding: 20px;       /* 两边留点空 */
+}
 
 .video-grid {
   display: grid;
