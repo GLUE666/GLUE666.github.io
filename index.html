@@ -45,10 +45,10 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title"> GLUE: Global-Local Unified Encoding for Imitation Learning via Key-Patch Tracking   </h1>
+          <h1 class="title is-1 publication-title"> Global-Local Unified Encoding for Steering Visual Attention in Robotic Manipulation   </h1>
        
           <div class="is-size-4 publication-authors">
-            <span class="author-block"></sup>Anonymous ICRA Submission</span>
+            <span class="author-block"></sup>Anonymous IROS Submission</span>
             
             
             <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
@@ -125,9 +125,9 @@
             <h2 class="title is-3" style="font-size: 35px; text-align: center; font-weight: bold;">Abstract</h2>
 <!--             <p style="text-align: justify;font-size: 22px; font-family: 'Verdana', sans-serif;"> -->
             <p style="text-align: justify;font-size: 24px; font-family: 'Times New Roman', serif;">
-                In recent years, visual representation learning has gained widespread attention in robotic imitation learning. However, in complex Out-of-Distribution(OOD) settings characterized by clutter and occlusion, the attention of global visual representations can be diluted or interfered, leading to degraded policy performance. The invariance of local representations for task-relevant objects offers a solution. By efficiently utilizing these local representations, training and testing data can be mapped to a more similar feature space, thereby mitigating the covariate shift problem. Accordingly, we propose GLUE, a global-local unified encoding framework for imitation learning based on key-patch tracking. GLUE selects and tracks key-patches as critical local representations by employing a text-guided mechanism. It features a novel fusion framework where global patch features query local patches to distill essential information, yielding fine-grained local features with low heterogeneity relative to the global context. This fused representation steers the robot’s visual attention toward task-relevant objects and preserves precise global context, which together align the training and testing distributions into a similar and task-informative feature space, ultimately enhancing the robustness of the imitation learning policy. Experiments demonstrate that GLUE achieves strong performance across diverse tasks in both simulation and realworld settings, outperforming the strongest baseline by 17.6% in simulation, 36.3% in real-world environments, and 58.3% on real-world generalization settings. 
-                  <!-- Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-                  would be impossible without nerfies since it would require going through a wall. -->
+                In recent years, considerable progress has been made in visual representation learning for robotic manipulation. However, in complex Out-of-Distribution(OOD) settings characterized by clutter and occlusion, visual representations relying solely on global features may be interfered, leading to degraded policy performance. This limitation motivates the incorporation of local features for task-relevant objects. By leveraging their inherent invariance, visual attention can be steered toward task-critical regions across OOD settings. Accordingly, we propose GLUE, a global-local unified encoding framework for steering visual attention in robotic manipulation. GLUE selects and tracks key-patches as task-critical regions by employing a text-guided mechanism. It features a novel fusion framework that integrates global and local features to construct a unified visual representation. This fused representation maps in-domain and OOD visual observations into a similar task-informative feature space, ultimately enhancing the robustness of the imitation learning policy. Experiments demonstrate that GLUE achieves strong performance across diverse tasks in both simulation and real-world settings, outperforming the strongest baseline by 17.6% in simulation, 36.3% in real-world environments, and 58.3% on real-world generalization settings.
+                  
+              would be impossible without nerfies since it would require going through a wall. -->
             </p>
         </div>
 
